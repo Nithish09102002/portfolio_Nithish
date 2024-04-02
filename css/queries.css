@@ -1,0 +1,162 @@
+@media (max-width: 84em) {
+  .menu {
+    max-width: 120rem;
+  }
+}
+
+@media (max-width: 68rem) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .section-about {
+    row-gap: 3.2rem;
+  }
+
+  .form-box,
+  .text-area,
+  .cd-box {
+    width: 40rem;
+  }
+
+  .nav-list {
+    gap: 6.4rem;
+  }
+}
+
+@media (max-width: 57rem) {
+  html {
+    /* 9px / 16px  */
+    font-size: 50%;
+  }
+  .nav-list {
+    gap: 4.8rem;
+  }
+  .section-hero-image-round {
+    height: 30rem;
+  }
+
+  .cd-box {
+    width: 37rem;
+  }
+
+  .form-box,
+  .text-area {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .sac-frontskills {
+    font-size: 1.4rem;
+    width: 6rem;
+  }
+  .nav-list {
+    gap: 3.2rem;
+  }
+
+  .section-about {
+    margin-bottom: 6.4rem;
+  }
+  .section-contact {
+    column-gap: 1.2rem;
+  }
+  .nav {
+    margin-bottom: 3.2rem;
+  }
+  .section-about {
+    margin-bottom: 9rem;
+  }
+  .form-box,
+  .text-area {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .sac-frontskills {
+    font-size: 2rem;
+    width: 50%;
+  }
+  .section-hero {
+    height: 100vh;
+  }
+  .nav-list {
+    gap: 1.8rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-list {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh + 90px);
+    left: -100%;
+    top: 85px;
+    background-color: #e6f4f8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    z-index: 1111;
+    transition: 1s;
+    transform: translateY(-90px);
+  }
+
+  .nav-list li {
+    font-size: 2.6rem;
+  }
+
+  .nav-open .nav-list {
+    left: 0;
+    /* transform: translate(-50%, 0); */
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .section-hero {
+    height: 70vh;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .section-about {
+    grid-template-columns: 1fr;
+  }
+  .square-image {
+    transform: translateY(0);
+  }
+  .section-contact {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .form-box,
+  .text-area,
+  .cd-box {
+    width: 40rem;
+  }
+
+  .section-about-header {
+    order: -1;
+  }
+  .section-about-content {
+    order: 1;
+  }
+  .square-box {
+    order: -1;
+  }
+
+  .section-contact {
+    margin-bottom: 11rem;
+  }
+}
