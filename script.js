@@ -4,7 +4,7 @@ const headerEl = document.querySelector(".nav");
 let isOverflowEnabled = true;
 
 function toggleOverflow() {
-  const sections = document.querySelectorAll(".section");
+  // const sections = document.querySelectorAll(".section");
 
   if (isOverflowEnabled) {
     document.body.style.overflow = "hidden";
@@ -65,3 +65,5 @@ allSections.forEach(function (section) {
 // btnNavEl.addEventListener("click", function () {
 //   headerEl.classList.toggle("nav-open");
 // });
+const year = document.querySelector(".year");
+year.textContent = new Date().getFullYear();

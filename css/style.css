@@ -128,7 +128,6 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -643,6 +642,10 @@ input,
 textarea {
   outline: none;
   font-size: 1.8rem;
+}
+
+.footer-copyright {
+  text-align: center;
 }
 /* 
 .wrapper{
